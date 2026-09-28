@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="@color/cream"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenue sur SmartStudy"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/brown_dark"
+        android:layout_marginTop="40dp" />
+
+    <TextView
+        android:id="@+id/tvSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="45dp"
+        android:text="Votre espace d'étude"
+        android:textColor="@color/text_dark"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnSubjects"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mes matières"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/brown"
+        android:layout_marginBottom="15dp" />
+
+    <Button
+        android:id="@+id/btnPlanning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Planning"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/brown"
+        android:layout_marginBottom="15dp" />
+
+    <Button
+        android:id="@+id/btnQuiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quiz"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/brown"
+        android:layout_marginBottom="15dp" />
+
+    <Button
+        android:id="@+id/btnProgress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ma progression"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/brown" />
+
+</LinearLayout>
